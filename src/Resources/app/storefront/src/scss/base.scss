@@ -21,3 +21,8 @@
     src: url('/bundles/additionalfonts/fonts/helvetica/Helvetica.ttf') format('truetype');
 }
 
+h1,h2,h3,h4,h5,h6 {
+    &.headline-lineheight-fix {
+        line-height: 1.2em;
+    }
+}
